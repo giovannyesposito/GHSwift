@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import TableViewReloadAnimation
 
 class ViewController: UIViewController, UITableViewDataSource{
     
     fileprivate var arrayDeItems = [Item]()
     @IBOutlet weak var tableView: UITableView!
     
+    override func viewDidAppear(_ animated: Bool) {
+        tableView.reloadData(
+            with: .simple(duration: 0.75, direction: .rotation3D(type: .thor),
+                          constantDelay: 0))
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         jsonDownload()
@@ -33,6 +39,7 @@ class ViewController: UIViewController, UITableViewDataSource{
                 self.arrayDeItems = jObejct
                 DispatchQueue.main.async {
                     self.tableView.reloadData()
+                    self .viewDidAppear(true)
                 }
             }catch{
               print(GlobalConstantes.somethingWrong)
@@ -59,7 +66,7 @@ class ViewController: UIViewController, UITableViewDataSource{
                    let image = UIImage(data: data)
                     DispatchQueue.main.async {
                         cell.imgAvatar.image = image
-                        cell.imgAvatar.layer.cornerRadius = cell.imgAvatar.frame.height / 1
+                        cell.imgAvatar.layer.cornerRadius = cell.imgAvatar.frame.height / 2
                         cell.imgAvatar.clipsToBounds = true
                     }
                 }

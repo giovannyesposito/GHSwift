@@ -42,47 +42,44 @@ struct Item: Codable {
         case stargazersCount = "stargazers_count"
         case forksCount = "forks_count"
         case forks  = "forks"
-        
     }
 }
 
-enum DefaultBranch: String, Codable {
-    case develop = "develop"
-    case master = "master"
-}
+    enum DefaultBranch: String, Codable {
+        case develop = "develop"
+        case master = "master"
+    }
 
-enum Language: String, Codable {
-    case swift = "Swift"
-}
+    enum Language: String, Codable {
+        case swift = "Swift"
+    }
 
 struct License: Codable {
     let key, name: String
     let spdxID: String?
     let url: String?
     let nodeID: String
-    
-    enum CodingKeys: String, CodingKey {
-        case key, name
-        case spdxID = "spdx_id"
-        case url
-        case nodeID = "node_id"
+        
+        enum CodingKeys: String, CodingKey {
+            case key, name
+            case spdxID = "spdx_id"
+            case url
+            case nodeID = "node_id"
+        }
     }
-}
 
 struct Owner: Codable {
     let avatarURL: String
     
-    
-    enum CodingKeys: String, CodingKey {
-        case avatarURL = "avatar_url"
-        
+        enum CodingKeys: String, CodingKey {
+            case avatarURL = "avatar_url"
+        }
     }
-}
 
-enum TypeEnum: String, Codable {
-    case organization = "Organization"
-    case user = "User"
-}
+        enum TypeEnum: String, Codable {
+            case organization = "Organization"
+            case user = "User"
+    }
 
 // MARK: Encode/decode helpers
 

@@ -1,0 +1,6 @@
+framework module Pods_GHSwiftPullsSearchUITests {
+  umbrella header "Pods-GHSwiftPullsSearchUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - TableViewReloadAnimation (0.0.5)
+
+DEPENDENCIES:
+  - TableViewReloadAnimation (~> 0.0.5)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - TableViewReloadAnimation
+
+SPEC CHECKSUMS:
+  TableViewReloadAnimation: f3a4c4048efbc56331be98075f26a2e533a14c16
+
+PODFILE CHECKSUM: 4fa174ececdabfe5eefea1c75ff046232042165f
+
+COCOAPODS: 1.5.3

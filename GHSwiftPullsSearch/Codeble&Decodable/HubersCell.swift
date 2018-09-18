@@ -14,7 +14,6 @@ class HubersCell: UITableViewCell {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var repoLabel: UILabel!
     @IBOutlet weak var starsLabel: UILabel!
-    @IBOutlet weak var forksLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
    
     override func awakeFromNib() {
