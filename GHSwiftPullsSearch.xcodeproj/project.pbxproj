@@ -15,10 +15,10 @@
 		2C2675C7214C5D45000357FD /* GHSwiftPullsSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2675C6214C5D45000357FD /* GHSwiftPullsSearchTests.swift */; };
 		2C2675D2214C5D45000357FD /* GHSwiftPullsSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2675D1214C5D45000357FD /* GHSwiftPullsSearchUITests.swift */; };
 		2C2675E0214C6351000357FD /* HubersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2675DF214C6351000357FD /* HubersCell.swift */; };
-		2C2675E2214C677E000357FD /* Hubers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2675E1214C677E000357FD /* Hubers.swift */; };
-		2CBE48A62150A4D900C84A1D /* ConfigUrlJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBE48A52150A4D900C84A1D /* ConfigUrlJSON.swift */; };
+		2C2675E2214C677E000357FD /* ItemsJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2675E1214C677E000357FD /* ItemsJson.swift */; };
+		2C7F323A215D67E600DC8096 /* ViewCellDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7F3239215D67E600DC8096 /* ViewCellDataSource.swift */; };
+		2CBE48A62150A4D900C84A1D /* ServiceJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBE48A52150A4D900C84A1D /* ServiceJSON.swift */; };
 		2CBE48AA2150A5A100C84A1D /* GlobalConstantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBE48A92150A5A100C84A1D /* GlobalConstantes.swift */; };
-		2CBE48AD2150AC4500C84A1D /* GradientBackGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBE48AC2150AC4500C84A1D /* GradientBackGround.swift */; };
 		555ADBFEC9D399096836A3FF /* Pods_GHSwiftPullsSearchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947D0741D65C714E68D250B7 /* Pods_GHSwiftPullsSearchUITests.framework */; };
 		7EC8B17021F52ACB28525840 /* Pods_GHSwiftPullsSearchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5BFBF3114F026A27D1666EB /* Pods_GHSwiftPullsSearchTests.framework */; };
 		A91AA1862D91F9D89AE04EC4 /* Pods_GHSwiftPullsSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D00FCF507D76D60F3234680 /* Pods_GHSwiftPullsSearch.framework */; };
@@ -58,10 +58,10 @@
 		2C2675D1214C5D45000357FD /* GHSwiftPullsSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHSwiftPullsSearchUITests.swift; sourceTree = "<group>"; };
 		2C2675D3214C5D45000357FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C2675DF214C6351000357FD /* HubersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubersCell.swift; sourceTree = "<group>"; };
-		2C2675E1214C677E000357FD /* Hubers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hubers.swift; sourceTree = "<group>"; };
-		2CBE48A52150A4D900C84A1D /* ConfigUrlJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigUrlJSON.swift; sourceTree = "<group>"; };
+		2C2675E1214C677E000357FD /* ItemsJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsJson.swift; sourceTree = "<group>"; };
+		2C7F3239215D67E600DC8096 /* ViewCellDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCellDataSource.swift; sourceTree = "<group>"; };
+		2CBE48A52150A4D900C84A1D /* ServiceJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceJSON.swift; sourceTree = "<group>"; };
 		2CBE48A92150A5A100C84A1D /* GlobalConstantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstantes.swift; sourceTree = "<group>"; };
-		2CBE48AC2150AC4500C84A1D /* GradientBackGround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackGround.swift; sourceTree = "<group>"; };
 		2D00FCF507D76D60F3234680 /* Pods_GHSwiftPullsSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GHSwiftPullsSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EFD92EB44F22B2A6B7212F7 /* Pods-GHSwiftPullsSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHSwiftPullsSearch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GHSwiftPullsSearch/Pods-GHSwiftPullsSearch.debug.xcconfig"; sourceTree = "<group>"; };
 		6BAAB7699498D4A30FEB2308 /* Pods-GHSwiftPullsSearchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHSwiftPullsSearchUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GHSwiftPullsSearchUITests/Pods-GHSwiftPullsSearchUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -138,7 +138,6 @@
 				2CBE48A22150A40600C84A1D /* Model */,
 				2CBE48A12150A3FE00C84A1D /* View */,
 				2CBE48A02150A3EF00C84A1D /* Controller */,
-				2C2675B3214C5D44000357FD /* ViewController.swift */,
 				2C2675BD214C5D45000357FD /* Info.plist */,
 			);
 			path = GHSwiftPullsSearch;
@@ -162,9 +161,18 @@
 			path = GHSwiftPullsSearchUITests;
 			sourceTree = "<group>";
 		};
+		2C7F3238215D642800DC8096 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				2C7F3239215D67E600DC8096 /* ViewCellDataSource.swift */,
+			);
+			name = DataSource;
+			sourceTree = "<group>";
+		};
 		2CBE48A02150A3EF00C84A1D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2C2675B3214C5D44000357FD /* ViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -181,9 +189,10 @@
 		2CBE48A22150A40600C84A1D /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				2CBE48AE2150AD2800C84A1D /* Gradiente */,
+				2C7F3238215D642800DC8096 /* DataSource */,
+				2CBE48A82150A55800C84A1D /* Constantes */,
 				2CBE48AB2150A7CE00C84A1D /* Delegates */,
-				2CBE48A42150A48800C84A1D /* ConfigConstantes */,
+				2CBE48A42150A48800C84A1D /* Config */,
 				2CBE48A32150A41600C84A1D /* Codeble&Decodable */,
 			);
 			name = Model;
@@ -193,34 +202,33 @@
 			isa = PBXGroup;
 			children = (
 				2C2675DF214C6351000357FD /* HubersCell.swift */,
-				2C2675E1214C677E000357FD /* Hubers.swift */,
+				2C2675E1214C677E000357FD /* ItemsJson.swift */,
 			);
 			path = "Codeble&Decodable";
 			sourceTree = "<group>";
 		};
-		2CBE48A42150A48800C84A1D /* ConfigConstantes */ = {
+		2CBE48A42150A48800C84A1D /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				2CBE48A82150A55800C84A1D /* ComumConstantes */,
 				2CBE48A72150A54900C84A1D /* API */,
 			);
-			name = ConfigConstantes;
+			name = Config;
 			sourceTree = "<group>";
 		};
 		2CBE48A72150A54900C84A1D /* API */ = {
 			isa = PBXGroup;
 			children = (
-				2CBE48A52150A4D900C84A1D /* ConfigUrlJSON.swift */,
+				2CBE48A52150A4D900C84A1D /* ServiceJSON.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
 		};
-		2CBE48A82150A55800C84A1D /* ComumConstantes */ = {
+		2CBE48A82150A55800C84A1D /* Constantes */ = {
 			isa = PBXGroup;
 			children = (
 				2CBE48A92150A5A100C84A1D /* GlobalConstantes.swift */,
 			);
-			name = ComumConstantes;
+			name = Constantes;
 			sourceTree = "<group>";
 		};
 		2CBE48AB2150A7CE00C84A1D /* Delegates */ = {
@@ -229,14 +237,6 @@
 				2C2675B1214C5D44000357FD /* AppDelegate.swift */,
 			);
 			name = Delegates;
-			sourceTree = "<group>";
-		};
-		2CBE48AE2150AD2800C84A1D /* Gradiente */ = {
-			isa = PBXGroup;
-			children = (
-				2CBE48AC2150AC4500C84A1D /* GradientBackGround.swift */,
-			);
-			path = Gradiente;
 			sourceTree = "<group>";
 		};
 		2CBE48AF2150AD6B00C84A1D /* Resource */ = {
@@ -478,13 +478,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C2675E2214C677E000357FD /* Hubers.swift in Sources */,
+				2C2675E2214C677E000357FD /* ItemsJson.swift in Sources */,
+				2C7F323A215D67E600DC8096 /* ViewCellDataSource.swift in Sources */,
 				2C2675E0214C6351000357FD /* HubersCell.swift in Sources */,
 				2CBE48AA2150A5A100C84A1D /* GlobalConstantes.swift in Sources */,
-				2CBE48AD2150AC4500C84A1D /* GradientBackGround.swift in Sources */,
 				2C2675B4214C5D44000357FD /* ViewController.swift in Sources */,
 				2C2675B2214C5D44000357FD /* AppDelegate.swift in Sources */,
-				2CBE48A62150A4D900C84A1D /* ConfigUrlJSON.swift in Sources */,
+				2CBE48A62150A4D900C84A1D /* ServiceJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

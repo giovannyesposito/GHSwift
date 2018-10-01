@@ -11,6 +11,9 @@ import UIKit
 
 class GlobalConstantes {
     
+    //MARK: JSON
+    static let jsonURLGH = URL(string: "https://api.github.com/search/repositories?q=language:SWIFT") 
+    
     //MARK: Ok
     static let done: String = "Sucesso"
     static let downloadDone = "Download de dados realizado"

@@ -1,5 +1,5 @@
 //
-//  Hubers.swift
+//  ItemsJson.swift
 //  GHSwiftPullsSearch
 //
 //  Created by Giovanny Silva Esposito on 14/09/2018.
